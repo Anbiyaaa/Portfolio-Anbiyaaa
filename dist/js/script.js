@@ -28,7 +28,7 @@ hamberger.addEventListener('click', function() {
 const video = document.querySelector('.video-background');
 video.playbackRate = 0.75; // Adjust the playback rate here (e.g., 0.75 for half speed)
 
-$(document).on('ready', function () {
+$(document).on('scroll', function () {
     // initialization of aos
     AOS.init({
       duration: 650,
